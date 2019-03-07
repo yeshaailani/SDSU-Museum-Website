@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Yesha Ailani
+    823351783
+    CS545 Assignment #4
+-->
+
+<head>
+    <meta charset="utf-8">
+	<title>Contact Us</title>
+	<meta http-equiv="content-type" 
+		content="text/html;charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="mycssfile.css" />
+	<script src="validate.js"></script>
+
+</head>
+
+
+<body onload="updatePage()" oncontextmenu="return false;">
+  <div class="container">
+        <div class="header-name">
+			
+				<h2 class="header-text">
+					San Diego Natural History Museum
+					<label for="lastUpdated" id="lastUpdated" class="topright"></label>	
+				</h2>
+			
+			</div>
+            
+            <div class="mainMenu">
+                <ul class="menu">
+                  <li><a class="active" href="index.html">Home</a></li>
+				   <li><a href="history.html">History</a></li>
+                  <li><a href="events.html">Events</a></li>
+                  <li><a href="exhibits.html">Exhibits</a></li>
+                  <li><a href="newsLetter.html">News Letter</a></li>
+                  <li><a href="aboutUs.html">About Us</a></li>
+                  <li><a href="contactUs.html">Contact Us</a></li>
+				   <li><a href="signUp.php">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div>
+            <div class="blankLeftContainer">
+            
+            </div>
+            <div class="mainContainer" style="text-align: center;">
+                <h1>
+				Get in touch with us: </h1>
+				
+                <table >
+                  <tr>
+                    <td> <p> First Name : </p> </td>
+                    <td> <input type="text" id="fname" name="firstname" /> </td>
+                  </tr>
+                  <tr>
+                    <td> <p> Last Name : </p> </td>
+                    <td> <input type="text" id="lname" name="lastname" /> </td>
+                  </tr>
+                  <tr>
+                    <td> <p> Mobile # : </p> </td>
+                    <td> <input type="text" id="mobile" name="mobile" /> </td>
+                  </tr>
+                  <tr>
+                    <td> <p> Email-Id : </p> </td>
+                    <td> <input type="text" id="emailId" name="emailId" /> </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">  <input type="submit" value="Submit" onclick="alert('Your data is Submitted thank you :)');" /> </td>
+
+                  </tr>
+                </table>
+                
+				<div class="contactText">
+						<h1> Contact us @ </h1>
+						<h4 style="margin-left:5%"> San Diego State University </h4>
+						<h4 style="margin-left:5%"> Natural History Museum </h4>
+						<h4 style="margin-left:5%"> San Diego, CA 92182-0000 </h4>
+						<h4 style="margin-left:5%"> Mobile: 619.594.5200 </h4>
+						<h4 style="margin-left:5%"> Email: nhmuseum@sdsu.edu </h4>
+					
+				 <p class="homeText">
+                   <a href="img/map.png" onclick="target='_blank'"> <img src="img/map.png" alt="Location" class="map" /> </a>
+                 </p>
+				</div>
+            </div>
+            <div class="blankRightContainer">
+            
+            </div>
+        </div>
+
+         <div class="footer">
+        <p class="pFooter">
+            © All rights reserved 
+            <span class="footerLogos">
+            Follow us @ 
+            <a href="https://www.facebook.com/SanDiegoNaturalHistoryMuseum/" onclick="target='_blank'"> <img src="img/fb.png" alt="Facebook" class="icon" /> </a>
+            
+            <a href="https://www.instagram.com/sdnhm/" onclick="target='_blank'"> <img src="img/twit.png" alt="Instagram" class="icon" /> </a>
+            <a href="https://twitter.com/SDNHM" onclick="target='_blank'"> <img src="img/insta.png" alt="twitter" class="icon" /> </a>
+            </span>
+        </p>
+        </div>
+    
+</body>
+
+</html>
